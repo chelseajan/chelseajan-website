@@ -1,0 +1,40 @@
+/* containers */
+.container {
+    max-width: 960px;
+    height: auto;
+}
+
+.section {
+    padding: 75px 0;  
+}
+
+.title {
+    padding: 15px 0;
+}
+
+.background-layer {
+    min-height: 75vh;
+    margin: 25px;
+}
+
+.about {
+    background: rgb(255, 193, 193);
+}
+
+.work {
+    background: rgb(213, 255, 213)
+}
+
+.contact {
+    background: rgb(200, 242, 255);
+}
+.uses {
+    background: rgb(255, 228, 178);
+}
+
+/* work */
+.grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 12px;
+}
