@@ -1,5 +1,6 @@
 import React from 'react';
 import Title from '../Title/title';
+import {BrowserRouter as Router, Route, Link } from "react-router-dom";
 
 const about = (props) => {
  return (
@@ -17,7 +18,7 @@ const about = (props) => {
                 <li className="fact-item">Embraces ambiguity during ideation and conception</li>
                 <li className="fact-item">Strong understanding in Agile Methodolody (writing user stories, managing product backlog, prioritizing defects) </li>
             </ul>
-            <a href="#">A little bit more info please!</a>
+            <Link to="/aboutme">A little bit more info please!</Link>
         </div>     
     </div>
     </div>

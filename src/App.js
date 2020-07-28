@@ -7,24 +7,33 @@ import About from './About/about';
 import Work from './Work/work';
 import Uses from './Uses/uses';
 import Contact from './Contact/contact';
+import AboutMe from './About/aboutMe';
 
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 function App() {
   return (
     <div className="App">
-      
-      <Navbar name="Chelsea Jan" />
-      <Banner greeting="Hi there!" name="Chelsea" title="I currently work at Illumina, improving human health by unlocking the power of the genome." />
-      <About />
-      <Work />
-      <Uses />
-      <Contact />
-      {/* <Section id="Uses" title="Uses." />
-      <Section id="Contact" title="Contact." /> */}
+      <Router>
+        <Navbar name="Chelsea Jan" />
+        <Switch>
+          {/* route allows you to define the path that is needed to render the compnonets listed */}
+        <Route exact path='/' render={props =>
+          <div>
+           <Banner greeting="Hi there!" name="Chelsea" title="I currently work at Illumina, improving human health by unlocking the power of the genome." />
+            <About />
+            <Work />
+            <Uses />
+            <Contact />
+          </div>
+        } />
+          <Route path="/aboutme" component={AboutMe} />
+        </Switch>
 
-      <Footer />
+        <Footer />
+      </Router>
     </div>
   );
 }
