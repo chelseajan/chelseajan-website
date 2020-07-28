@@ -1,0 +1,14 @@
+/* footer styles */
+footer {
+    padding: 10px 0;
+    text-align: center;
+}
+
+.footer-link {
+    display: inline;
+    margin-right: 10px;
+}
+
+.link, .copyright{
+    font-size: 0.9em;
+}
