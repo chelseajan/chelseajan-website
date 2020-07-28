@@ -71,7 +71,7 @@ const usesComputer = (props) => {
     };
  return (
     <div className="uses-computer">
-        <h3>Desk Setup</h3>
+        <h4>Desk Setup</h4>
         {
             uses.equipment.map(obj => {
                 return (
@@ -82,7 +82,7 @@ const usesComputer = (props) => {
                 )
             })
         }
-        <h3>Development Tools</h3>
+        <h4>Development Tools</h4>
         {
             uses.tools.map(obj => {
             return (
