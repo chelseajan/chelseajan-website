@@ -1,0 +1,9 @@
+/* footer styles */
+footer {
+    padding: 10px 0;
+    text-align: center;
+}
+
+.link, .copyright{
+    font-size: 0.9em;
+}
