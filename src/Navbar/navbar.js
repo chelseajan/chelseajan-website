@@ -1,5 +1,6 @@
 import React from 'react';
-import { Navbar, Nav} from 'react-bootstrap';
+import { Navbar, Nav, NavDropdown} from 'react-bootstrap';
+import {BrowserRouter as Router, Route, Link } from "react-router-dom";
 
 const navbar = (props) => {
   const navLinks = [
@@ -13,7 +14,11 @@ const navbar = (props) => {
     },
     {
       site: "Uses",
-      href: "#Uses"
+      href: "/uses"
+    },
+    {
+      site: "Portfolio",
+      href: "/portfolio"
     },
     {
       site: "Contact",

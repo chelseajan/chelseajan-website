@@ -70,30 +70,34 @@ const usesComputer = (props) => {
         ]  
     };
  return (
-    <div className="uses-computer">
-        <h4>Desk Setup</h4>
-        {
-            uses.equipment.map(obj => {
+    <div className="uses">
+        <section className="uses-section">
+            <h4>Desk Setup</h4>
+            {
+                uses.equipment.map(obj => {
+                    return (
+                        <div className="uses-item">
+                            <strong><a href={obj.href}>{obj.model} by {obj.brand}</a></strong>
+                            <p>{obj.specs}</p>
+                        </div>
+                    )
+                })
+            }
+        </section>
+        <section className="uses-section">
+        <h4>Development Tools</h4>
+            {
+                uses.tools.map(obj => {
                 return (
                     <div className="uses-item">
-                        <strong><a href={obj.href}>{obj.model} by {obj.brand}</a></strong>
-                        <p>{obj.specs}</p>
+                        <strong><a href={obj.href}>{obj.tool}</a></strong>
+                        <p>{obj.description}</p>
                     </div>
                 )
-            })
-        }
-        <h4>Development Tools</h4>
-        {
-            uses.tools.map(obj => {
-            return (
-                <div className="uses-item">
-                    <strong><a href={obj.href}>{obj.tool}</a></strong>
-                    <p>{obj.description}</p>
-                </div>
-            )
-            })
-        }
-    </div>
+                })
+            }
+        </section>
+    </div>    
    )
 }   
 
