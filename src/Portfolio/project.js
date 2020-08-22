@@ -8,8 +8,9 @@ const portfolio = (props) => {
 
     return (
     <Link to="/">
-        <Button>
-            <img src={props.src} alt={props.projectName}/>
+        <Button className="project">
+            <img className="project-img" src={props.src} />
+
             <div className="project-description">
                 <h4 className="project-name">{props.projectName}</h4>
                 <p className="project-type">{props.projectType}</p>

@@ -6,55 +6,50 @@ const portfolio = (props) => {
 
     const experiences = [
         {
-            imgSrc: "",
-            projectName: "Animal Crossing",
-            projectType:"Game Development",
+            name: "Animal Crossing New Horizons",
+            type:"Game Development",
             href: ""
         },
         {
-            imgSrc: "",
-            projectName: "Hidden Fish Website Re-Design",
-            projectType:"Restaurant Website",
+            src: "/media/hiddenfish.png",
+            name: "Hidden Fish Website Re-Design",
+            type:"Restaurant Website",
             href: ""
         },
         {
-            imgSrc: "",
-            projectName: "Test project name",
-            projectType:"Test project type",
+            name: "Test project name",
+            type:"Test project type",
             href: ""
         },
         {
-            imgSrc: "",
-            projectName: "Test project name",
-            projectType:"Test project type",
+            name: "Test project name",
+            type:"Test project type",
             href: ""
         },
         {
-            imgSrc: "",
-            projectName: "Test project name",
-            projectType:"Test project type",
+            name: "Test project name",
+            type:"Test project type",
             href: ""
         },
         {
-            imgSrc: "",
-            projectName: "Test project name",
-            projectType:"Test project type",
+            name: "Test project name",
+            type:"Test project type",
             href: ""
         },
     ];
     return (
-        <div className="about background-layer">
+        <div className="portfolio background-layer">
             <div className="container section">
                 <Title id="Portfolio" title="Portfolio." />
 
                 <div className="grid">
-                    
                     {
-                        experiences.map( obj => {
-                            return (<Project projectName={obj.projectName} projectType={obj.projectType} src={obj.imgSrc}/>)
+                        experiences.map( (project, index) => {
+                            return (
+                            <Project key={index} index={index} projectName={project.name} projectType={project.type} src={project.src} />
+                            )
                         })
                     }
-
                 </div>     
             </div>
         </div>
