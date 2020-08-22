@@ -1,16 +1,16 @@
 @import url('css/container.css');
-@import url('Footer/footer.css');
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap'); 
+@import url('css/footer.css');
+@import url('css/project.css');
 
 
-
-
+li {
+    margin-bottom: 1rem;
+}
 .title {
     font-size: 20px;
-    letter-spacing: 0.01rem;
 }
 /* about */
-.about-pitch {
+.about-pitch, .bio {
     grid-column: 1 / span 2;
 }
 .fact-list {
@@ -22,6 +22,10 @@
     font-style: italic;
     padding: 30px;
     color:rgb(179, 179, 179);
+}
+
+.larger {
+    font-size: 1.15em;
 }
 
 html {
