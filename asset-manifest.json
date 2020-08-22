@@ -1,26 +1,23 @@
 {
   "files": {
-    "main.css": "/static/css/main.677fe8ed.chunk.css",
-    "main.js": "/static/js/main.f0d5785d.chunk.js",
-    "main.js.map": "/static/js/main.f0d5785d.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.3374ac37.js",
-    "runtime-main.js.map": "/static/js/runtime-main.3374ac37.js.map",
-    "static/css/2.30c2d978.chunk.css": "/static/css/2.30c2d978.chunk.css",
-    "static/js/2.02d5343d.chunk.js": "/static/js/2.02d5343d.chunk.js",
-    "static/js/2.02d5343d.chunk.js.map": "/static/js/2.02d5343d.chunk.js.map",
-    "index.html": "/index.html",
-    "precache-manifest.7bb8f49424d32de04335ca0590849725.js": "/precache-manifest.7bb8f49424d32de04335ca0590849725.js",
-    "service-worker.js": "/service-worker.js",
-    "static/css/2.30c2d978.chunk.css.map": "/static/css/2.30c2d978.chunk.css.map",
-    "static/css/main.677fe8ed.chunk.css.map": "/static/css/main.677fe8ed.chunk.css.map",
-    "static/js/2.02d5343d.chunk.js.LICENSE.txt": "/static/js/2.02d5343d.chunk.js.LICENSE.txt",
-    "static/media/Resume-ChelseaJan-072020.pdf": "/static/media/Resume-ChelseaJan-072020.2bf7d73a.pdf"
+    "main.css": "/chelseajan-website/static/css/main.3414d0b1.chunk.css",
+    "main.js": "/chelseajan-website/static/js/main.3ad73a38.chunk.js",
+    "main.js.map": "/chelseajan-website/static/js/main.3ad73a38.chunk.js.map",
+    "runtime-main.js": "/chelseajan-website/static/js/runtime-main.f98b784e.js",
+    "runtime-main.js.map": "/chelseajan-website/static/js/runtime-main.f98b784e.js.map",
+    "static/js/2.646bd3dd.chunk.js": "/chelseajan-website/static/js/2.646bd3dd.chunk.js",
+    "static/js/2.646bd3dd.chunk.js.map": "/chelseajan-website/static/js/2.646bd3dd.chunk.js.map",
+    "index.html": "/chelseajan-website/index.html",
+    "precache-manifest.f1c4e57942715bf9d6d71bd40abf8f7b.js": "/chelseajan-website/precache-manifest.f1c4e57942715bf9d6d71bd40abf8f7b.js",
+    "service-worker.js": "/chelseajan-website/service-worker.js",
+    "static/css/main.3414d0b1.chunk.css.map": "/chelseajan-website/static/css/main.3414d0b1.chunk.css.map",
+    "static/js/2.646bd3dd.chunk.js.LICENSE.txt": "/chelseajan-website/static/js/2.646bd3dd.chunk.js.LICENSE.txt",
+    "static/media/Resume-ChelseaJan-072020.pdf": "/chelseajan-website/static/media/Resume-ChelseaJan-072020.2bf7d73a.pdf"
   },
   "entrypoints": [
-    "static/js/runtime-main.3374ac37.js",
-    "static/css/2.30c2d978.chunk.css",
-    "static/js/2.02d5343d.chunk.js",
-    "static/css/main.677fe8ed.chunk.css",
-    "static/js/main.f0d5785d.chunk.js"
+    "static/js/runtime-main.f98b784e.js",
+    "static/js/2.646bd3dd.chunk.js",
+    "static/css/main.3414d0b1.chunk.css",
+    "static/js/main.3ad73a38.chunk.js"
   ]
 }
