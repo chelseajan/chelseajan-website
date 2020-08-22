@@ -14,7 +14,11 @@ import Portfolio from './Portfolio/portfolio';
 
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 
-import 'bootstrap/dist/css/bootstrap.min.css';
+// import 'bootstrap/dist/css/bootstrap.min.css';
+
+const PageNotFound = () => (
+  <div>404!</div>
+) 
 
 function App() {
   return (
@@ -30,10 +34,11 @@ function App() {
             <Work />
             <Contact />
           </div>
-        } />
+          } />
           <Route path="/aboutme" component={AboutMe} />
-          <Route exact path='/uses' render={Uses} />
-          <Route exact path='/portfolio' render={Portfolio} />
+          <Route exact path='/uses' component={Uses} />
+          <Route exact path='/portfolio' component={Portfolio} />
+          <Route component={PageNotFound} />
 
         </Switch>
 
