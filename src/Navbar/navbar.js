@@ -1,16 +1,17 @@
 import React from 'react';
-import { Navbar, Nav, NavDropdown} from 'react-bootstrap';
-import {BrowserRouter as Router, Route, Link } from "react-router-dom";
+import { Navbar, Nav} from 'react-bootstrap';
 
 const navbar = (props) => {
   const navLinks = [
     {
       site: "About",
-      href: "#About"
+      // href: "/#About"
+      href: "/aboutme"
+
     },
     {
       site: "Work",
-      href: "#Work"
+      href: "/#Work"
     },
     {
       site: "Uses",
@@ -22,7 +23,7 @@ const navbar = (props) => {
     },
     {
       site: "Contact",
-      href: "#Contact"
+      href: "/#Contact"
     }
   ]
 
