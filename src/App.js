@@ -27,7 +27,7 @@ function App() {
         <Navbar name="Chelsea Jan" />
         <Switch>
           {/* route allows you to define the path that is needed to render the compnonets listed */}
-        <Route exact path='/' render={props =>
+        <Route exact path='/chelseajan-website' render={props =>
           <div>
            <Banner greeting="Hi there!" name="Chelsea" title="I currently work at Illumina, improving human health by unlocking the power of the genome." />
             <About />
