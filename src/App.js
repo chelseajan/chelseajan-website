@@ -8,10 +8,17 @@ import Work from './Work/work';
 import Uses from './Uses/uses';
 import Contact from './Contact/contact';
 import AboutMe from './About/aboutMe';
+import Portfolio from './Portfolio/portfolio';
+
+
 
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 
-import 'bootstrap/dist/css/bootstrap.min.css';
+// import 'bootstrap/dist/css/bootstrap.min.css';
+
+const PageNotFound = () => (
+  <div>404!</div>
+) 
 
 function App() {
   return (
@@ -25,11 +32,14 @@ function App() {
            <Banner greeting="Hi there!" name="Chelsea" title="I currently work at Illumina, improving human health by unlocking the power of the genome." />
             <About />
             <Work />
-            <Uses />
             <Contact />
           </div>
-        } />
+          } />
           <Route path="/aboutme" component={AboutMe} />
+          <Route exact path='/uses' component={Uses} />
+          <Route exact path='/portfolio' component={Portfolio} />
+          <Route component={PageNotFound} />
+
         </Switch>
 
         <Footer />

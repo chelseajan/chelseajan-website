@@ -1,6 +1,7 @@
 import React from 'react';
 import Title from '../Title/title';
-import {BrowserRouter as Router, Route, Link } from "react-router-dom";
+import {BrowserRouter as Link } from "react-router-dom";
+
 
 const about = (props) => {
  return (
@@ -20,7 +21,7 @@ const about = (props) => {
             </ul>
             <Link to="/aboutme">A little bit more info please!</Link>
         </div>     
-    </div>
+        </div>
     </div>
     
    )

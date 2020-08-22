@@ -4,11 +4,6 @@ footer {
     text-align: center;
 }
 
-.footer-link {
-    display: inline;
-    margin-right: 10px;
-}
-
 .link, .copyright{
     font-size: 0.9em;
 }

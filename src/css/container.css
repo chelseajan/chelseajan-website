@@ -13,28 +13,39 @@
 }
 
 .background-layer {
-    min-height: 75vh;
+    min-height: 65vh;
     margin: 25px;
 }
 
 .about {
-    background: rgb(255, 193, 193);
+    background: rgb(255, 224, 224);
 }
 
 .work {
-    background: rgb(213, 255, 213)
+    background: rgb(234, 255, 234)
 }
 
 .contact {
-    background: rgb(200, 242, 255);
-}
-.uses {
-    background: rgb(255, 228, 178);
+    background: rgb(225, 248, 255);
 }
 
+.uses {
+    background: rgb(255, 243, 220);
+}
+
+.portfolio {
+    background: rgb(236, 236, 236);
+}
 /* work */
 .grid {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     grid-gap: 12px;
+}
+
+
+/* uses */
+
+.uses-section {
+    padding: 15px 0;
 }
