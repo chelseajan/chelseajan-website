@@ -33,7 +33,7 @@ const work = (props) => {
                 <Title id="Work" title="Work Experience."/>
                 <div className="grid">
                     <div className="work-column">
-                        <a href = {Pdf} target = "_blank">Get my resume as pdf.</a>
+                        <a href = {Pdf} target = "_blank" rel="noopener noreferrer">Get my resume as pdf.</a>
                     </div>
                     {
                         resume.map(position => { return (
