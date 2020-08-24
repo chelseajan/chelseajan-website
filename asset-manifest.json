@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/chelseajan-website/static/css/main.3414d0b1.chunk.css",
-    "main.js": "/chelseajan-website/static/js/main.a5be44bd.chunk.js",
-    "main.js.map": "/chelseajan-website/static/js/main.a5be44bd.chunk.js.map",
+    "main.js": "/chelseajan-website/static/js/main.5f961e96.chunk.js",
+    "main.js.map": "/chelseajan-website/static/js/main.5f961e96.chunk.js.map",
     "runtime-main.js": "/chelseajan-website/static/js/runtime-main.f98b784e.js",
     "runtime-main.js.map": "/chelseajan-website/static/js/runtime-main.f98b784e.js.map",
     "static/css/2.11829350.chunk.css": "/chelseajan-website/static/css/2.11829350.chunk.css",
     "static/js/2.67bcf929.chunk.js": "/chelseajan-website/static/js/2.67bcf929.chunk.js",
     "static/js/2.67bcf929.chunk.js.map": "/chelseajan-website/static/js/2.67bcf929.chunk.js.map",
     "index.html": "/chelseajan-website/index.html",
-    "precache-manifest.5820a15c9c02342ab22991171c331457.js": "/chelseajan-website/precache-manifest.5820a15c9c02342ab22991171c331457.js",
+    "precache-manifest.22d0f76c0d51206057144912b21fce9f.js": "/chelseajan-website/precache-manifest.22d0f76c0d51206057144912b21fce9f.js",
     "service-worker.js": "/chelseajan-website/service-worker.js",
     "static/css/2.11829350.chunk.css.map": "/chelseajan-website/static/css/2.11829350.chunk.css.map",
     "static/css/main.3414d0b1.chunk.css.map": "/chelseajan-website/static/css/main.3414d0b1.chunk.css.map",
@@ -21,6 +21,6 @@
     "static/css/2.11829350.chunk.css",
     "static/js/2.67bcf929.chunk.js",
     "static/css/main.3414d0b1.chunk.css",
-    "static/js/main.a5be44bd.chunk.js"
+    "static/js/main.5f961e96.chunk.js"
   ]
 }
