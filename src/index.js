@@ -9,6 +9,7 @@ import { BrowserRouter as Router } from "react-router-dom";
 
 ReactDOM.render(
   <React.StrictMode>
+    {/* added basename around BrowserRouter */}
     <Router basename={process.env.PUBLIC_URL}>
       <App />
     </Router>
