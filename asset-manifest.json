@@ -1,26 +1,26 @@
 {
   "files": {
     "main.css": "/chelseajan-website/static/css/main.3414d0b1.chunk.css",
-    "main.js": "/chelseajan-website/static/js/main.5f961e96.chunk.js",
-    "main.js.map": "/chelseajan-website/static/js/main.5f961e96.chunk.js.map",
+    "main.js": "/chelseajan-website/static/js/main.c9450237.chunk.js",
+    "main.js.map": "/chelseajan-website/static/js/main.c9450237.chunk.js.map",
     "runtime-main.js": "/chelseajan-website/static/js/runtime-main.f98b784e.js",
     "runtime-main.js.map": "/chelseajan-website/static/js/runtime-main.f98b784e.js.map",
     "static/css/2.11829350.chunk.css": "/chelseajan-website/static/css/2.11829350.chunk.css",
-    "static/js/2.67bcf929.chunk.js": "/chelseajan-website/static/js/2.67bcf929.chunk.js",
-    "static/js/2.67bcf929.chunk.js.map": "/chelseajan-website/static/js/2.67bcf929.chunk.js.map",
+    "static/js/2.4bb31cdd.chunk.js": "/chelseajan-website/static/js/2.4bb31cdd.chunk.js",
+    "static/js/2.4bb31cdd.chunk.js.map": "/chelseajan-website/static/js/2.4bb31cdd.chunk.js.map",
     "index.html": "/chelseajan-website/index.html",
-    "precache-manifest.22d0f76c0d51206057144912b21fce9f.js": "/chelseajan-website/precache-manifest.22d0f76c0d51206057144912b21fce9f.js",
+    "precache-manifest.219e52f09605577729c992bedb4be0d9.js": "/chelseajan-website/precache-manifest.219e52f09605577729c992bedb4be0d9.js",
     "service-worker.js": "/chelseajan-website/service-worker.js",
     "static/css/2.11829350.chunk.css.map": "/chelseajan-website/static/css/2.11829350.chunk.css.map",
     "static/css/main.3414d0b1.chunk.css.map": "/chelseajan-website/static/css/main.3414d0b1.chunk.css.map",
-    "static/js/2.67bcf929.chunk.js.LICENSE.txt": "/chelseajan-website/static/js/2.67bcf929.chunk.js.LICENSE.txt",
+    "static/js/2.4bb31cdd.chunk.js.LICENSE.txt": "/chelseajan-website/static/js/2.4bb31cdd.chunk.js.LICENSE.txt",
     "static/media/Resume-ChelseaJan-072020.pdf": "/chelseajan-website/static/media/Resume-ChelseaJan-072020.2bf7d73a.pdf"
   },
   "entrypoints": [
     "static/js/runtime-main.f98b784e.js",
     "static/css/2.11829350.chunk.css",
-    "static/js/2.67bcf929.chunk.js",
+    "static/js/2.4bb31cdd.chunk.js",
     "static/css/main.3414d0b1.chunk.css",
-    "static/js/main.5f961e96.chunk.js"
+    "static/js/main.c9450237.chunk.js"
   ]
 }
