@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/chelseajan-website/precache-manifest.e8df2130412fcfa47e92e2fc8158d2c3.js"
+  "/chelseajan-website/precache-manifest.5820a15c9c02342ab22991171c331457.js"
 );
 
 self.addEventListener('message', (event) => {

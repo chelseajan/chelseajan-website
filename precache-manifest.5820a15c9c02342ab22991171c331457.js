@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "2f86288fbad0a7746dc0f338ea1f59b0",
+    "revision": "1e1141c0add867dff7b7fa32269f51d5",
     "url": "/chelseajan-website/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/chelseajan-website/static/css/2.11829350.chunk.css"
   },
   {
-    "revision": "071c589603159d489466",
+    "revision": "4300d9a4f70cce54111b",
     "url": "/chelseajan-website/static/css/main.3414d0b1.chunk.css"
   },
   {
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/chelseajan-website/static/js/2.67bcf929.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "071c589603159d489466",
-    "url": "/chelseajan-website/static/js/main.a6cfe0c5.chunk.js"
+    "revision": "4300d9a4f70cce54111b",
+    "url": "/chelseajan-website/static/js/main.a5be44bd.chunk.js"
   },
   {
     "revision": "10c44ac5c1d79cc18767",
